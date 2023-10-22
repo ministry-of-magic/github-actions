@@ -15,7 +15,7 @@ jobs:
         scalr_hostname: 'ministry-of-magic.scalr.io'
         scalr_token: ${{ secrets.SCALR_TOKEN }}
         terraform_output: true
-        terraform_version: '1.5.7'
+        terraform_version: '1.5.6'
 
     - run: terraform init
 
