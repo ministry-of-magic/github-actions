@@ -1,4 +1,6 @@
 terraform {
+  required_version = "1.5.7"
+
   backend "remote" {
     hostname = "ministry-of-magic.scalr.io"
     organization = "env-tqaqjimtnmmgiv0"
